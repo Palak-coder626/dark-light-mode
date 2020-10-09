@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Light and dark mode</title>
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <script src="https://kit.fontawesome.com/1a0215f38e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="nav">
+        <ul class="flex-container">
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#projects">PROJECTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
+            <li>  <div class="theme-switch-wrapper">
+                <span id="toggle-icon">
+                <span class="toggle-text">Light Mode</span>
+                <i class="fas fa-sun"></i>
+                </span>
+                <label class="theme-switcher">
+                    <input type="checkbox">
+                    <div class="slider round"></div>
+                </label>
+            </div> 
+           </li>
+        </ul>
+     
+     
+    </nav>
+    <!-- Home Section -->
+    <section id="home">
+        <div class="title-section">
+            <h1>Hi! I'm Palak</h1>
+            <h2>Welcome to my website!</h2>
+        </div>
+    </section>
+   
+    <!-- About Section -->
+   <section id="about">
+       <div class="about-content">
+           <h1>My Strengths</h1>
+           <div class="img-flex">
+               <div class="img-content">
+                   <h2>Web Innovation</h2>
+                   <img src="images/innovative_light.svg" alt="Web Innovation"  id="image1">
+               </div>
+               <div class="img-content">
+                <h2>Problem Solving</h2>
+                <img src="images/feeling_proud_light.svg" alt="Problem Solving"  id="image2">
+            </div>
+           
+            <div class="img-content">
+                <h2>Proud Coder</h2>
+                <img src="images/proud_coder_light.svg" alt="Proud Coder" id="image3">
+            </div>
+           
+           </div>
+       </div>
+
+   </section>
+
+   <!-- Projects Section -->
+
+   <section id="projects">
+    <div class="projects-showcase">
+
+        <h1>My Projects</h1>
+        <div class="button-container">
+         <button class="primary">Primary</button>
+         <button class="secondary">Secondary</button>
+         <button class="disabled">Disabled</button>
+         <button class="outlined">Primary</button>
+         <button class="secondary outlined">Secondary</button>
+         <button class="disabled outlined">Disabled</button>
+        </div>
+       <div class="projects-description" id="text-box">
+          <p>Lorem ipsum dolor amet consectetur adipisicing elit. Voluptatibus magnam sit alias eos ducimus expedita quam, corporis, blanditiis vel facilis, animi adipisci? Nemo enim quisquam maiores minima, qui omnis. Accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem magnam accusamus qui, ab voluptates reprehenderit rerum quo mollitia libero asperiores doloremque dolores, nihil repellat doloribus perspiciatis magni dolore dolorum ipsam!</p> 
+       </div>         
+  
+    </div>
+   </section>
+   <!-- Contact section -->
+   <section id="contact">
+       <a href="https://github.com/Palak-coder626/"><i class="fa fa-github"></i></a>
+       <a href="https://www.instagram.com/palakjain832/?hl=en"><i class="fa fa-instagram"></i></a>
+       <a href="https://www.linkedin.com/in/palak-jain-aa264319b/"><i class="fa fa-linkedin"></i></a>
+       <a href=""><i class="fa fa-facebook"></i></a>
+       <a href="https://twitter.com/PalakJain626"><i class="fa fa-twitter"></i></a>
+   </section>
+    <!-- Script -->
+    <script src="script.js"></script>
+</body>
+</html>
